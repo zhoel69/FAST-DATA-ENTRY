@@ -300,13 +300,13 @@ select.input{
 
       <div class="form-group">
 
-        <label>PHASE</label>
+        <label>NO. PHASE</label>
 
         <input type="text"
                class="input"
                id="phase"
                autocomplete="off"
-               placeholder="INPUT PHASE">
+               placeholder="INPUT NI. PHASE">
 
       </div>
 
@@ -330,7 +330,7 @@ select.input{
     <!-- DRIVER -->
     <div class="form-group">
 
-      <label>DRIVER</label>
+      <label>NAMA DRIVER</label>
 
       <div class="input-wrap">
 
@@ -339,7 +339,7 @@ select.input{
                id="driver"
                data-key="driverData"
                autocomplete="off"
-               placeholder="INPUT DRIVER">
+               placeholder="INPUT NAMA DRIVER">
 
         <div class="dropdown"
              id="driverDropdown"></div>
@@ -725,7 +725,7 @@ DRIVER : ${driver.value}
 NOPOL : ${nopol.value}
 NO SEAL : ${seal.value}
 TOTAL KOLI : ${koli.value}
-WAKTU BONGKAR : ${formatTanggal(waktu.value)}`;
+WAKTU UNLOADING : ${formatTanggal(waktu.value)}`;
 
   document.getElementById('hasil')
   .innerText = hasil;
